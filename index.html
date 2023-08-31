@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <title>Jayasurya</title>
+  <link rel="icon"  href="img/pexels-pixabay-247676.jpg" type="image/png">
+  <script src="portfolio.js"></script>
+</head>
+
+<body>
+  <video autoplay loop muted id="video-bg">
+    <source src="img/pexels-cottonbro-9665235 (1080p).mp4" type="video/mp4">
+    </video>
+      <nav>
+        <ul>
+        <li><a href="#start" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="mailto:suryagowda000143@gmail.com">Contact</a></li>
+      </ul>
+      </nav>
+<div  id = "start" class="Start"></div>
+  <div class="main">
+    <div class="detail">
+      <div class="image"><img src="img/pic.jpg" alt="" width="20%"></div>
+      <h1><span>Hi, It's Me</span>  <span style="color:#00E8F8;">Jayasurya</span></h1>
+      <h1 class="block-reveal__text subtitle mt-0 ws-nowarp">
+        "Nothing is impossible,the word itself says ‘I’m possible’!" <br>- Audrey Hepburn</h1>
+      <div class="social">
+        <a href="https://github.com/Jayasurya-surya" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/jayasurya-807b95245" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  </body>
+  <body>
+  <div id="about" class="About">
+    <h1><span style = "color: azure; font-family:cursive;font-size: 30px;text-align: center; animation-fill-mode: forwards;">About Me</span></h1>
+    <section id="education">
+      <h2>Education Details</h2>
+      <div class="education-card">
+        <h3>BE in Computer Science and Engineering</h3>
+        <p>KVG College of Engineering (VTU)<br>2019-2023<br>CGPA: 7.2</p>
+      </div>
+      <div class="education-card">
+        <h3>PUC</h3>
+        <p>La sallite pre-university College<br>2017-2019<br>Percentage: 60.87%</p>
+      </div>
+      <div class="education-card">
+        <h3>SSLC</h3>
+        <p>St Joseph's High school hunsur<br>2016-2017<br>Percentage: 65.12%</p>
+      </div>
+    </section>
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Company: Contriver</h3>
+            <p>Location: Mysore<br>Designation: Intern<br>Domain: AIML<br>Period: 4/08/2022 to 5/09/2022</p>
+            <ul>
+              <li>Python project using RandomForestRegressor and LinearRegression for house price pridection at Contriver Mysore</li>
+              <li>Achieved a 61% accuracy using RandomForestRegressor</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul class="certifications-list">
+        <li>Google Data Analytics  - Completed on 20/09/2023 (Coursera)</li>
+        <li>Skills Starter - Completed on 10/08/2023 (SalesForce)</li>
+        <li>Android Application Development - Completed on 31/05/2022 (Runshaw)</li>
+      </ul>
+    </section>
+    <div id="skill" class="skills">
+      <h2>Skills</h2>
+        <ul>
+          <li><a class="nav-link" href="#" onclick="showProjects('ai'); event.preventDefault();">Artificial Intelligence</a></li>
+          <li><a class="nav-link" href="#" onclick="showProjects('mysql'); event.preventDefault();">MySQL</a></li>
+          <li><a class="nav-link" href="#" onclick="showProjects('web-development'); event.preventDefault();">Web Development</a></li>
+          <li><a class="nav-link" href="#" onclick="showProjects('cpp'); event.preventDefault();">C++ Programming (Intermediate)</a></li>
+          <li><a class="nav-link" href="#" onclick="showProjects('java'); event.preventDefault();">Java (Intermediate)</a></li>
+          <li><a class="nav-link" href="#" onclick="showProjects('c'); event.preventDefault();">C Programming (Intermediate)</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="projects-container">
+      <div id="ai-projects" class="projects show">
+        <h2 class="project-title">Projects for Artificial Intelligence</h2>
+        <ul>
+          <li><h3>Title: Missing Child Identification system</h3></li>
+          <li>Led team of 4, where our project helps to indentify missing cinldren through a eb portal</li>
+          <li>This system uses CNN,SVM and VGC achieving 70% accuracy.</li>
+        </ul>
+      </div>
+
+      <div id="web-development-projects" class="projects show">
+        <h2 class="project-title">Projects for Web Development</h2>
+        <ul>
+          <li><h3>Title: Home Rental system</h3></li>
+          <li>Description:<br>Led team of 2, This project is used to provide users Rental service <br>
+            Designed and created a web application using HTML, MySQL, and PHP that allows look at Rental house.</li>
+        </ul>
+      </div>
+      <div id="mysql-projects" class="projects show">
+        <h2 class="project-title">Projects for MySQL (Intermediate)</h2>
+        <ul>
+          <li><h3>Title: Liquor Management system</h3></li>
+          <li>Description:<br>Led team of 2 as project leader in developing a Management system.<br>
+            Created user-friendly made by using HTML,CSS,JS on the frontend and Java and Eclipse 
+          </li>
+        </ul>
+      </div>
+      <div id="cpp-projects" class="projects show">
+        <h2 class="project-title">Projects for c++ (Beginner)</h2>
+        <ul>
+          <li><h3>Title: Eiffel Tower Simulation</h3></li>
+          <li>Description:<br>Led team of 2 as project leader in developing a Eiffel Tower simulation.<br>
+            Created a simulation of working 3D visual of the Eiffel Tower using c++ and GLUT OpenGL library.
+          </li>
+        </ul>
+      </div>
+      <div id="java-projects" class="projects show">
+        <h2 class="project-title">Projects for Java (Intermediate)</h2>
+        <ul>
+          <li><h3>Title: Liquor Management system</h3></li>
+          <li>Description:<br>Led team of 2 as project leader in developing a Management system.<br>
+            Created user-friendly made by using HTML,CSS,JS on the frontend and Java and Eclipse 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
